@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# Author ID: kkrathod
+# Student Name: Khushi Rathod
+# Student Number: 121499214
+def helloWorld():
+    print("Hello World")
+
+# Call the helloWorld() function
+helloWorld()
+
+def write_name_to_file():
+    name = input("Enter your name: ")
+
+    # Open the file in write mode
+    with open("name.txt", "w") as file:
+        # Write the name to the file
+        file.write(name)
+
+    print("Name written to file successfully.")
+
+# Call the write_name_to_file() function
+write_name_to_file()
